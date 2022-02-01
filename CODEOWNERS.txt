@@ -1,0 +1,11 @@
+# In this example, any change inside the `/apps` directory
+# will require approval from @doctocat.
+/apps/ @doctocat
+
+# In this example, any change inside the `/apps` directory
+# will require approval from @doctocat or @octocat.
+/apps/ @doctocat @octocat
+
+# In this example, any change inside the `/apps` directory
+# will require approval from a member of the @example-org/content team.
+/apps/ @example-org/content-team
